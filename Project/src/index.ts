@@ -32,5 +32,5 @@ app.use("/zamowienie", zamowienieRoutes);
 
 
 app.get("/", function (req: Request, res: Response) {
-  res.send("Witaj w API restauracji");
+  res.send("Welcome to the restaurant API");
 });
