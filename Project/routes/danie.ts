@@ -1,7 +1,5 @@
 import express from "express";
 import { Request, Response } from "express";
-import bodyParser from "body-parser";
-import { appendFile } from "fs";
 
 const Danie = require("../schemas/danieSchema");
 const router = express.Router();

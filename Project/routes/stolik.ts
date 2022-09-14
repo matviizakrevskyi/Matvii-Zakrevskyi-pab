@@ -1,7 +1,5 @@
 import express from "express";
 import { Request, Response } from "express";
-import bodyParser from "body-parser";
-import { appendFile } from "fs";
 
 const Stolik = require("../schemas/stolikSchema");
 const router = express.Router();
