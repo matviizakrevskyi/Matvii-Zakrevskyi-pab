@@ -14,7 +14,7 @@ const app = express();
 const PORT = 3000;
 
 const dbURI =
-  "";
+  "mongodb+srv://MatviiZakrevskyi:MatviiZakrevskyi@restauracjaproj.urhp4lg.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(dbURI, {useNewUrlParser: true, useUnifiedTopology: true})
     .then((result:any) => console.log("Connected to Mongoose: " + app.listen(PORT)))
